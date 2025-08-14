@@ -1,50 +1,70 @@
-# Welcome to your Expo app 👋
+# Remindly
+Remindly is a mobile application built with React Native and Expo, designed to help you stay organized by managing your daily tasks and upcoming plans. It provides a seamless and intuitive user experience for creating, tracking, and completing reminders. All your data is stored securely on your device, ensuring privacy and offline access.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Readme file er lavet med "www.gitread.dev"
 
-## Get started
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+-   **Intuitive Dashboard:** Get a quick overview of your day, including how many reminders are left and a summary of your upcoming week.
+-   **Reminder Management:** Easily add, view, complete, and delete reminders. Set titles, descriptions, dates, and times.
+-   **Priority Levels:** Assign 'high', 'medium', or 'low' priority to your tasks to focus on what matters most.
+-   **Upcoming & Completed Views:** Toggle between your upcoming plans and a list of all your completed reminders.
+-   **Personalization:** Customize your profile with a name, email, and a profile picture from your camera or photo library.
+-   **App Settings:** Toggle settings like notifications and dark mode to fit your preferences.
+-   **Local Data Storage:** All user data, including reminders and settings, is stored locally on the device using AsyncStorage for privacy and offline functionality.
+-   **Data Control:** A dedicated privacy section allows you to delete all your application data permanently.
 
-2. Start the app
+## Tech Stack
 
-   ```bash
-   npx expo start
-   ```
+-   **Framework:** React Native, Expo
+-   **Language:** TypeScript
+-   **Routing:** Expo Router
+-   **Styling:** NativeWind (Tailwind CSS for React Native)
+-   **State Management:** React Context API
+-   **Local Storage:** AsyncStorage
+-   **UI Components:** Gorhom Bottom Sheet, React Native Reanimated
 
-In the output, you'll find options to open the app in a
+## Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+To get a local copy up and running, follow these simple steps.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Prerequisites
 
-## Get a fresh project
+-   Node.js
+-   npm or yarn
+-   Expo Go app on your mobile device (for testing)
 
-When you're ready, run:
+### Installation
 
-```bash
-npm run reset-project
-```
+1.  Clone the repository:
+    ```sh
+    git clone https://github.com/jonhen01mmd/remindly-app-eksamen.git
+    ```
+2.  Navigate to the project directory:
+    ```sh
+    cd remindly-app-eksamen
+    ```
+3.  Install NPM packages:
+    ```sh
+    npm install
+    ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Running the App
 
-## Learn more
+1.  Start the Metro bundler:
+    ```sh
+    npm start
+    ```
+2.  Scan the QR code with the Expo Go app on your iOS or Android device.
 
-To learn more about developing your project with Expo, look at the following resources:
+Alternatively, you can run the app directly on a connected device or emulator:
+-   To run on Android:
+    ```sh
+    npm run android
+    ```
+-   To run on iOS:
+    ```sh
+    npm run ios
+    ```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
